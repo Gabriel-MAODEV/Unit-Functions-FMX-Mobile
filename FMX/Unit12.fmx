@@ -1,0 +1,416 @@
+object Form12: TForm12
+  Left = 0
+  Top = 0
+  BorderStyle = None
+  Caption = 'Form12'
+  ClientHeight = 480
+  ClientWidth = 320
+  Position = ScreenCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object TabControl1: TTabControl
+    Align = Client
+    Size.Width = 320.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    TabHeight = 49.000000000000000000
+    TabIndex = 0
+    TabOrder = 0
+    TabPosition = PlatformDefault
+    Sizes = (
+      320s
+      431s
+      320s
+      431s
+      320s
+      431s)
+    object TabItem1: TTabItem
+      CustomIcon = <
+        item
+        end>
+      TextSettings.Font.Size = 11.000000000000000000
+      TextSettings.Font.StyleExt = {00060000000000000004000000}
+      StyledSettings = [Family, FontColor]
+      IsSelected = True
+      Size.Width = 106.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'Toast'
+      ExplicitSize.cx = 106.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object GroupBox2: TGroupBox
+        Align = Top
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Position.X = 10.000000000000000000
+        Position.Y = 10.000000000000000000
+        Size.Width = 300.000000000000000000
+        Size.Height = 151.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Exemplo 1'
+        TabOrder = 1
+        object edt_Msg: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 1
+          Text = 'Teste Mensagem'
+          Position.X = 16.000000000000000000
+          Position.Y = 29.000000000000000000
+          Size.Width = 265.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          TextPrompt = 'Mensagem'
+          object ClearEditButton1: TClearEditButton
+            CanFocus = False
+            Cursor = crArrow
+            Size.Width = 32.000000000000000000
+            Size.Height = 30.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 0
+          end
+        end
+        object cbo_Tipo: TComboBox
+          Items.Strings = (
+            'PRIMARY'
+            'SUCCESS'
+            'ERROR  '
+            'WARNING'
+            'INFORMATION'
+            'SECUNDARY'
+            ' LIGHT'
+            ' DARK')
+          ItemIndex = 0
+          Position.X = 152.000000000000000000
+          Position.Y = 69.000000000000000000
+          Size.Width = 129.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object Button1: TButton
+          Position.X = 96.000000000000000000
+          Position.Y = 104.000000000000000000
+          Size.Width = 97.000000000000000000
+          Size.Height = 44.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Executar'
+          OnClick = Button1Click
+        end
+        object cbo_Align: TComboBox
+          Items.Strings = (
+            'Align Top'
+            'Align Bottom')
+          ItemIndex = 0
+          Position.X = 16.000000000000000000
+          Position.Y = 69.000000000000000000
+          Size.Width = 129.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+        end
+      end
+      object GroupBox3: TGroupBox
+        Align = Top
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Position.X = 10.000000000000000000
+        Position.Y = 171.000000000000000000
+        Size.Width = 300.000000000000000000
+        Size.Height = 161.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Exemplo 2'
+        TabOrder = 0
+        object edt_Msg_Toast2: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 1
+          Text = 'Teste Mensagem'
+          Position.X = 24.000000000000000000
+          Position.Y = 37.000000000000000000
+          Size.Width = 265.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          TextPrompt = 'Mensagem'
+          object ClearEditButton2: TClearEditButton
+            CanFocus = False
+            Cursor = crArrow
+            Size.Width = 32.000000000000000000
+            Size.Height = 30.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 0
+          end
+        end
+        object cbo_Align_Toast2: TComboBox
+          Items.Strings = (
+            'Align Top'
+            'Align Bottom')
+          ItemIndex = 0
+          Position.X = 24.000000000000000000
+          Position.Y = 77.000000000000000000
+          Size.Width = 129.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object cbo_Tp_Toast2: TComboBox
+          Items.Strings = (
+            'SUCCESS'
+            'ERROR  '
+            'INFORMATION'
+            'WARNING')
+          ItemIndex = 0
+          Position.X = 160.000000000000000000
+          Position.Y = 77.000000000000000000
+          Size.Width = 129.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object Button2: TButton
+          Position.X = 96.000000000000000000
+          Position.Y = 113.000000000000000000
+          Size.Width = 97.000000000000000000
+          Size.Height = 44.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Executar'
+          OnClick = Button2Click
+        end
+      end
+    end
+    object TabItem2: TTabItem
+      CustomIcon = <
+        item
+        end>
+      TextSettings.Font.Size = 11.000000000000000000
+      TextSettings.Font.StyleExt = {00060000000000000004000000}
+      StyledSettings = [Family, FontColor]
+      IsSelected = False
+      Size.Width = 106.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'SweetAlert'
+      ExplicitSize.cx = 106.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object GroupBox1: TGroupBox
+        Align = Top
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Position.X = 10.000000000000000000
+        Position.Y = 10.000000000000000000
+        Size.Width = 300.000000000000000000
+        Size.Height = 151.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Exemplo 1'
+        TabOrder = 1
+        object edt_Msg_sweet: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 1
+          Text = 'Teste Mensagem'
+          Position.X = 16.000000000000000000
+          Position.Y = 29.000000000000000000
+          Size.Width = 265.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          TextPrompt = 'Mensagem'
+          object ClearEditButton3: TClearEditButton
+            CanFocus = False
+            Cursor = crArrow
+            Size.Width = 32.000000000000000000
+            Size.Height = 30.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 0
+          end
+        end
+        object Cbo_Tp_Sweet: TComboBox
+          Items.Strings = (
+            'SUCCESS'
+            'ERROR  '
+            'WARNING'
+            'INFORMATION'
+            'QUESTION')
+          ItemIndex = 0
+          Position.X = 16.000000000000000000
+          Position.Y = 69.000000000000000000
+          Size.Width = 265.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object Button3: TButton
+          Position.X = 96.000000000000000000
+          Position.Y = 104.000000000000000000
+          Size.Width = 97.000000000000000000
+          Size.Height = 44.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Executar'
+          OnClick = Button3Click
+        end
+      end
+    end
+    object TabItem3: TTabItem
+      CustomIcon = <
+        item
+        end>
+      TextSettings.Font.Size = 11.000000000000000000
+      TextSettings.Font.StyleExt = {00060000000000000004000000}
+      StyledSettings = [Family, FontColor]
+      IsSelected = False
+      Size.Width = 108.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'Campo Format'
+      ExplicitSize.cx = 108.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object edt_CpfOrCnpj: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        TabOrder = 5
+        KeyboardType = NumberPad
+        Position.X = 32.000000000000000000
+        Position.Y = 45.000000000000000000
+        Size.Width = 265.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        TextPrompt = 'CNPJ'
+        Caret.Color = claCrimson
+        Caret.Width = 3
+        OnTyping = edt_CpfOrCnpjTyping
+        object ClearEditButton4: TClearEditButton
+          CanFocus = False
+          Cursor = crArrow
+          Size.Width = 32.000000000000000000
+          Size.Height = 30.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+        end
+      end
+      object Layout1: TLayout
+        Position.X = 32.000000000000000000
+        Position.Y = 17.000000000000000000
+        Size.Width = 129.000000000000000000
+        Size.Height = 26.000000000000000000
+        Size.PlatformDefault = False
+        object Label1: TLabel
+          Align = Left
+          AutoSize = True
+          Size.Width = 46.000000000000000000
+          Size.Height = 26.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = 'CNPJ'
+        end
+        object Label2: TLabel
+          Align = Right
+          AutoSize = True
+          Position.X = 96.000000000000000000
+          Size.Width = 33.000000000000000000
+          Size.Height = 26.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.WordWrap = False
+          Text = 'CPF'
+        end
+        object Swit_CpfOrCnpj: TSwitch
+          Align = Client
+          IsChecked = False
+          Margins.Left = 5.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Size.Width = 44.000000000000000000
+          Size.Height = 26.000000000000000000
+          Size.PlatformDefault = False
+          OnSwitch = Swit_CpfOrCnpjSwitch
+        end
+      end
+      object edt_Celular: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        TabOrder = 4
+        KeyboardType = NumberPad
+        Position.X = 32.000000000000000000
+        Position.Y = 85.000000000000000000
+        Size.Width = 265.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        TextPrompt = 'CELULAR'
+        Caret.Color = claCrimson
+        Caret.Width = 3
+        OnTyping = edt_CelularTyping
+        object ClearEditButton5: TClearEditButton
+          CanFocus = False
+          Cursor = crArrow
+          Size.Width = 32.000000000000000000
+          Size.Height = 30.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+        end
+      end
+      object edt_Valor: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        TabOrder = 3
+        KeyboardType = NumberPad
+        Position.X = 32.000000000000000000
+        Position.Y = 125.000000000000000000
+        Size.Width = 265.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        TextPrompt = 'VALOR'
+        Caret.Color = claCrimson
+        Caret.Width = 3
+        OnTyping = edt_ValorTyping
+        object ClearEditButton6: TClearEditButton
+          CanFocus = False
+          Cursor = crArrow
+          Size.Width = 32.000000000000000000
+          Size.Height = 30.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+        end
+      end
+      object edt_Data: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        TabOrder = 2
+        KeyboardType = NumberPad
+        Position.X = 32.000000000000000000
+        Position.Y = 173.000000000000000000
+        Size.Width = 265.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        TextPrompt = 'DATA'
+        Caret.Color = claCrimson
+        Caret.Width = 3
+        OnTyping = edt_DataTyping
+        object ClearEditButton7: TClearEditButton
+          CanFocus = False
+          Cursor = crArrow
+          Size.Width = 32.000000000000000000
+          Size.Height = 30.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+        end
+      end
+      object edt_Peso: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        TabOrder = 1
+        KeyboardType = NumberPad
+        Position.X = 32.000000000000000000
+        Position.Y = 221.000000000000000000
+        Size.Width = 265.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        TextPrompt = 'PESO'
+        Caret.Color = claCrimson
+        Caret.Width = 3
+        OnTyping = edt_PesoTyping
+        object ClearEditButton8: TClearEditButton
+          CanFocus = False
+          Cursor = crArrow
+          Size.Width = 32.000000000000000000
+          Size.Height = 30.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+        end
+      end
+    end
+  end
+end

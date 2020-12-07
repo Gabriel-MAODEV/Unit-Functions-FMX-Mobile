@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/12/03 08:11:44.000.951,=C:\Users\ricardo.guimaraes.BRINFO\Documents\Embarcadero\Studio\Projects\Unit12.pas</Transaction>
+    <Transaction>2020/12/03 08:12:40.000.010,C:\Users\ricardo.guimaraes.BRINFO\Documents\Embarcadero\Studio\Projects\Project12.dproj=C:\Users\ricardo.guimaraes.BRINFO\Documents\Embarcadero\Studio\Projects\Project12.dproj</Transaction>
+    <Transaction>2020/12/03 08:13:39.000.329,=C:\Users\ricardo.guimaraes.BRINFO\Documents\Embarcadero\Studio\Projects\Unit13.pas</Transaction>
+    <Transaction>2020/12/03 08:17:37.000.954,C:\Users\ricardo.guimaraes.BRINFO\Documents\Embarcadero\Studio\Projects\UFuncoesFMX_Mobile.pas=C:\Users\ricardo.guimaraes.BRINFO\Documents\Embarcadero\Studio\Projects\Unit13.pas</Transaction>
+    <Transaction>2020/12/03 08:53:24.000.686,C:\Users\ricardo.guimaraes.BRINFO\Documents\Embarcadero\Studio\Projects\UFuncoesFMX_Mobile.pas=</Transaction>
+    <Transaction>2020/12/03 09:13:30.000.801,=C:\Projetos\uFunc_FMX_Mobile.pas</Transaction>
+    <Transaction>2020/12/04 00:24:24.000.443,=D:\Projetos\Units\Demo_Func_Mobile\FMX\Units\uFunc_FMX_Mobile.pas</Transaction>
+    <Transaction>2020/12/06 13:12:36.797,D:\Projetos\Units\Demo_Func_Mobile\FMX\Sample.dproj=D:\Projetos\Units\Demo_Func_Mobile\FMX\Project12.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<PMac_Ricardo iOSSimulator="iPhone5"/>
+		<NoProfile Android="" iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>
